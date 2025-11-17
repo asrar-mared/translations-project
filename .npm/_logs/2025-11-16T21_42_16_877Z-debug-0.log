@@ -1,0 +1,31 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm run pkg:upload
+7 verbose argv "run" "pkg:upload"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-11-16T21_42_16_877Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-11-16T21_42_16_877Z-debug-0.log
+10 silly logfile done cleaning log files
+11 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 9 (line 1 column 10) while parsing near "\"scripts\": {\n  \"pkg:upload\": ..."
+11 verbose stack     at parse (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+11 verbose stack     at PackageJson.fromJSON (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:163:22)
+11 verbose stack     at PackageJson.load (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:158:17)
+11 verbose stack     at async PackageJson.normalize (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:118:5)
+11 verbose stack     at async #run (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run.js:90:13)
+11 verbose stack     at async RunScript.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run.js:44:7)
+11 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:208:9)
+11 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:60:5)
+12 error code EJSONPARSE
+13 error JSON.parse Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 9 (line 1 column 10) while parsing near "\"scripts\": {\n  \"pkg:upload\": ..."
+14 error JSON.parse Failed to parse JSON data.
+14 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+15 verbose cwd /data/data/com.termux/files/home
+16 verbose os Linux 4.14.190-perf-28693687-abA525FXXSCFYF1
+17 verbose node v24.9.0
+18 verbose npm  v11.6.0
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-11-16T21_42_16_877Z-debug-0.log

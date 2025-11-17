@@ -1,0 +1,122 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v24.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm exec jsonlint ui-ar.json
+7 verbose argv "exec" "--" "jsonlint" "ui-ar.json"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-11-17T02_37_01_045Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-11-17T02_37_01_045Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 http fetch GET 200 https://registry.npmjs.org/jsonlint 976ms (cache miss)
+14 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+15 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+16 silly idealTree buildDeps
+17 silly fetch manifest jsonlint@1.6.3
+18 silly packumentCache full:https://registry.npmjs.org/jsonlint cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/jsonlint 241ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/jsonlint set size:undefined disposed:false
+21 silly placeDep ROOT jsonlint@1.6.3 OK for:  want: 1.6.3
+22 silly fetch manifest nomnom@^1.5.x
+23 silly packumentCache full:https://registry.npmjs.org/nomnom cache-miss
+24 silly fetch manifest JSV@^4.0.x
+25 silly packumentCache full:https://registry.npmjs.org/JSV cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/nomnom 222ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/nomnom set size:undefined disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/JSV 557ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/JSV set size:undefined disposed:false
+30 silly placeDep ROOT JSV@4.0.2 OK for: jsonlint@1.6.3 want: ^4.0.x
+31 silly placeDep ROOT nomnom@1.8.1 OK for: jsonlint@1.6.3 want: ^1.5.x
+32 silly fetch manifest underscore@~1.6.0
+33 silly packumentCache full:https://registry.npmjs.org/underscore cache-miss
+34 silly fetch manifest chalk@~0.4.0
+35 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/chalk 157ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/underscore 172ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/underscore set size:undefined disposed:false
+40 silly placeDep ROOT chalk@0.4.0 OK for: nomnom@1.8.1 want: ~0.4.0
+41 silly placeDep ROOT underscore@1.6.0 OK for: nomnom@1.8.1 want: ~1.6.0
+42 silly fetch manifest has-color@~0.1.0
+43 silly packumentCache full:https://registry.npmjs.org/has-color cache-miss
+44 silly fetch manifest strip-ansi@~0.1.0
+45 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+46 silly fetch manifest ansi-styles@~1.0.0
+47 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/strip-ansi 116ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/ansi-styles 232ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/has-color 1060ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/has-color set size:undefined disposed:false
+54 silly placeDep ROOT ansi-styles@1.0.0 OK for: chalk@0.4.0 want: ~1.0.0
+55 silly placeDep ROOT has-color@0.1.7 OK for: chalk@0.4.0 want: ~0.1.0
+56 silly placeDep ROOT strip-ansi@0.1.1 OK for: chalk@0.4.0 want: ~0.1.0
+57 silly reify moves {}
+58 silly audit bulk request {
+58 silly audit   jsonlint: [ '1.6.3' ],
+58 silly audit   JSV: [ '4.0.2' ],
+58 silly audit   nomnom: [ '1.8.1' ],
+58 silly audit   chalk: [ '0.4.0' ],
+58 silly audit   underscore: [ '1.6.0' ],
+58 silly audit   'ansi-styles': [ '1.0.0' ],
+58 silly audit   'has-color': [ '0.1.7' ],
+58 silly audit   'strip-ansi': [ '0.1.1' ]
+58 silly audit }
+59 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz 1ms (cache hit)
+60 http cache has-color@https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz 0ms (cache hit)
+61 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz 0ms (cache hit)
+62 http cache underscore@https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz 0ms (cache hit)
+63 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz 0ms (cache hit)
+64 http cache nomnom@https://registry.npmjs.org/nomnom/-/nomnom-1.8.1.tgz 0ms (cache hit)
+65 http cache JSV@https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz 0ms (cache hit)
+66 http cache jsonlint@https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz 0ms (cache hit)
+67 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz. Extracting by manifest.
+68 silly tarball no local data for has-color@https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz. Extracting by manifest.
+69 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz. Extracting by manifest.
+70 silly tarball no local data for underscore@https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz. Extracting by manifest.
+71 silly tarball no local data for nomnom@https://registry.npmjs.org/nomnom/-/nomnom-1.8.1.tgz. Extracting by manifest.
+72 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz. Extracting by manifest.
+73 silly tarball no local data for JSV@https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz. Extracting by manifest.
+74 silly tarball no local data for jsonlint@https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz. Extracting by manifest.
+75 http fetch GET 200 https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz 186ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.1.1.tgz 191ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.0.0.tgz 274ms (cache miss)
+78 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 449ms
+79 silly audit report {
+79 silly audit report   underscore: [
+79 silly audit report     {
+79 silly audit report       id: 1109570,
+79 silly audit report       url: 'https://github.com/advisories/GHSA-cf4h-3jhx-xvhq',
+79 silly audit report       title: 'Arbitrary Code Execution in underscore',
+79 silly audit report       severity: 'critical',
+79 silly audit report       vulnerable_versions: '>=1.3.2 <1.12.1',
+79 silly audit report       cwe: [Array],
+79 silly audit report       cvss: [Object]
+79 silly audit report     }
+79 silly audit report   ]
+79 silly audit report }
+80 silly packumentCache corgi:https://registry.npmjs.org/underscore cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz 472ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz 522ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/nomnom/-/nomnom-1.8.1.tgz 526ms (cache miss)
+84 warn deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+85 http fetch GET 200 https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz 585ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/underscore 923ms (cache miss)
+87 silly packumentCache corgi:https://registry.npmjs.org/underscore set size:undefined disposed:false
+88 silly packumentCache corgi:https://registry.npmjs.org/nomnom cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz 1666ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/nomnom 414ms (cache miss)
+91 silly packumentCache corgi:https://registry.npmjs.org/nomnom set size:undefined disposed:false
+92 silly packumentCache corgi:https://registry.npmjs.org/jsonlint cache-miss
+93 http cache https://registry.npmjs.org/jsonlint 35ms (cache hit)
+94 silly packumentCache corgi:https://registry.npmjs.org/jsonlint set size:10806 disposed:false
+95 verbose cwd /data/data/com.termux/files/home/translations
+96 verbose os Linux 4.14.190-perf-28693687-abA525FXXSCFYF1
+97 verbose node v24.9.0
+98 verbose npm  v11.6.0
+99 verbose exit 0
+100 info ok

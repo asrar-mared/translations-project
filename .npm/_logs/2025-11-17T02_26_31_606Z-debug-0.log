@@ -1,0 +1,38 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @localazy/cdn-client
+7 verbose argv "install" "@localazy/cdn-client"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-11-17T02_26_31_606Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-11-17T02_26_31_606Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest @localazy/cdn-client@*
+15 silly packumentCache full:https://registry.npmjs.org/@localazy%2fcdn-client cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@localazy%2fcdn-client 2210ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@localazy%2fcdn-client set size:undefined disposed:false
+18 silly placeDep ROOT @localazy/cdn-client@1.5.9 OK for: home@1.0.0 want: *
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   '@localazy/cli': [ '2.0.8' ],
+20 silly audit   '@sinonjs/text-encoding': [ '0.7.2' ],
+20 silly audit   ws: [ '8.18.0' ],
+20 silly audit   '@localazy/cdn-client': [ '1.5.9' ]
+20 silly audit }
+21 http cache @localazy/cdn-client@https://registry.npmjs.org/@localazy/cdn-client/-/cdn-client-1.5.9.tgz 0ms (cache hit)
+22 silly tarball no local data for @localazy/cdn-client@https://registry.npmjs.org/@localazy/cdn-client/-/cdn-client-1.5.9.tgz. Extracting by manifest.
+23 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 412ms
+24 silly audit report {}
+25 http fetch GET 200 https://registry.npmjs.org/@localazy/cdn-client/-/cdn-client-1.5.9.tgz 2239ms (cache miss)
+26 silly ADD node_modules/@localazy/cdn-client
+27 verbose cwd /data/data/com.termux/files/home
+28 verbose os Linux 4.14.190-perf-28693687-abA525FXXSCFYF1
+29 verbose node v24.9.0
+30 verbose npm  v11.6.0
+31 verbose exit 0
+32 info ok

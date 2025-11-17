@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jsonlint": "^1.6.3"
+  },
+  "_npx": {
+    "packages": [
+      "jsonlint"
+    ]
+  }
+}

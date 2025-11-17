@@ -1,0 +1,24 @@
+{
+  "writeKey": "مفتاح_writeKey_بتاعك",
+  "readKey": "مفتاح_readKey_بتاعك",
+  "upload": {
+    "files": [
+      {
+        "pattern": "./i18n/en.json",
+        "type": "json",
+        "lang": "en"
+      },
+      {
+        "pattern": "./i18n/ar.json",
+        "type": "json",
+        "lang": "ar"
+      }
+    ]
+  },
+  "download": {
+    "files": [
+      "./i18n/en.result.json",
+      "./i18n/ar.result.json"
+    ]
+  }
+}

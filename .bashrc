@@ -1,0 +1,1 @@
+source ~/.localazy-completions/localazy

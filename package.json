@@ -1,0 +1,21 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg:upload": "localazy upload",
+    "pkg:download": "localazy download",
+    "pkg": "localazy upload && localazy download"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@localazy/cli": "^2.0.8"
+  },
+  "dependencies": {
+    "@localazy/cdn-client": "^1.5.9"
+  }
+}

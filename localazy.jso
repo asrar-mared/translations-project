@@ -1,0 +1,18 @@
+{
+  "writeKey": "YOUR_WRITE_KEY",
+  "readKey": "YOUR_READ_KEY",
+  "upload": {
+    "files": [
+      {
+        "pattern": "./i18n/en.json",
+        "type": "json",
+        "lang": "en"
+      }
+    ]
+  },
+  "download": {
+    "files": [
+      "./i18n"
+    ]
+  }
+}

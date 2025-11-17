@@ -1,0 +1,56 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.9.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @localazy/cli
+7 verbose argv "install" "--global" "@localazy/cli"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-11-16T21_37_03_948Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-11-16T21_37_03_948Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @localazy/cli@*
+14 silly packumentCache full:https://registry.npmjs.org/@localazy%2fcli cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@localazy%2fcli 1245ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/@localazy%2fcli set size:138014 disposed:false
+17 silly placeDep ROOT @localazy/cli@2.0.8 OK for:  want: *
+18 silly fetch manifest @sinonjs/text-encoding@0.7.2
+19 silly packumentCache full:https://registry.npmjs.org/@sinonjs%2ftext-encoding cache-miss
+20 silly fetch manifest ws@8.18.0
+21 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/ws 659ms (cache revalidated)
+23 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+24 http fetch GET 200 https://registry.npmjs.org/@sinonjs%2ftext-encoding 815ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@sinonjs%2ftext-encoding set size:15044 disposed:false
+26 silly fetch manifest bufferutil@^4.0.1
+27 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/bufferutil 103ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+30 silly fetch manifest utf-8-validate@>=5.0.2
+31 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 134ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+34 silly placeDep node_modules/@localazy/cli @sinonjs/text-encoding@0.7.2 OK for: @localazy/cli@2.0.8 want: 0.7.2
+35 silly placeDep node_modules/@localazy/cli ws@8.18.0 OK for: @localazy/cli@2.0.8 want: 8.18.0
+36 silly reify mark retired [
+36 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/@localazy/cli',
+36 silly reify   '/data/data/com.termux/files/usr/bin/localazy'
+36 silly reify ]
+37 silly reify moves {
+37 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/@localazy/cli': '/data/data/com.termux/files/usr/lib/node_modules/@localazy/.cli-vPhkNDuv',
+37 silly reify   '/data/data/com.termux/files/usr/bin/localazy': '/data/data/com.termux/files/usr/bin/.localazy-WfqVG6mm'
+37 silly reify }
+38 http cache @localazy/cli@https://registry.npmjs.org/@localazy/cli/-/cli-2.0.8.tgz 0ms (cache hit)
+39 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.0.tgz 0ms (cache hit)
+40 http cache @sinonjs/text-encoding@https://registry.npmjs.org/@sinonjs/text-encoding/-/text-encoding-0.7.2.tgz 1ms (cache hit)
+41 silly CHANGE node_modules/@localazy/cli
+42 silly CHANGE node_modules/@localazy/cli/node_modules/@sinonjs/text-encoding
+43 silly CHANGE node_modules/@localazy/cli/node_modules/ws
+44 verbose cwd /data/data/com.termux/files/home
+45 verbose os Linux 4.14.190-perf-28693687-abA525FXXSCFYF1
+46 verbose node v24.9.0
+47 verbose npm  v11.6.0
+48 verbose exit 0
+49 info ok
