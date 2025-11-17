@@ -1,0 +1,41 @@
+const localazyMetadata = {
+  "projectUrl": "https://localazy.com/p/demo-project",
+  "baseLocale": "en",
+  "timestamp": 8000445088587515945,
+  "files": {
+    "f7c17299cdf3c25566850c9f12e1884f52ac237a": {
+      "file": "file.ts",
+      "path": "src/modules/guided-tours/tours/add-language-tour/locale",
+      "library": "",
+      "module": "",
+      "buildType": "",
+      "productFlavors": [ ],
+      "locales": [
+        {
+          "language": "en",
+          "region": "",
+          "script": "",
+          "isRtl": false,
+          "name": "English",
+          "localizedName": "English",
+          "uri": "/_a816546212130918361adf3ad9/_e0/f7c17299cdf3c25566850c9f12e1884f52ac237a/en/file.ts",
+          "plural": (n) => { return (n===1) ? "one" : "other"; }
+          "timestamp":  8070729385790395926
+        },
+        {
+          "language": "cs",
+          "region": "",
+          "script": "",
+          "isRtl": false,
+          "name": "Czech",
+          "localizedName": "Čeština",
+          "uri": "/_a816546212130918361adf3ad9/_e0/f7c17299cdf3c25566850c9f12e1884f52ac237a/cs/file.ts",
+          "plural": (n) => { return (n===1) ? "one" : (n>=2 && n<=4) ? "few" : "other"; }
+          "timestamp":  8070729385790395926
+        }
+      ]
+    }
+  }
+};
+ 
+export default localazyMetadata;
