@@ -1,1 +1,3 @@
+# Ignore npm logs
+npm-debug.log*
 .npm/_logs/
